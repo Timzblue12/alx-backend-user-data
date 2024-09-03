@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+i#!/usr/bin/env python3
 """ Base module
 """
 from datetime import datetime
@@ -40,7 +40,7 @@ class Base():
         """
         if type(self) != type(other):
             return False
-        if not isinstance(self, Base):
+        if not isintanceof(Base):
             return False
         return (self.id == other.id)
 
